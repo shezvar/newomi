@@ -1,0 +1,29 @@
+.btn:not(.btn-default)
+  border: 0px
+
+.btn.btn-grey
+  background: $grey-lighter
+  color: $text-color
+
+  &:hover
+    background: darken($grey-lighter, 10%)
+
+
+.btn.btn-transparent
+  margin: 0 3rem
+  border: 1px solid white
+  color: white
+  font-weight: 600
+  &:hover
+    background-color: white
+    text-decoration: none
+    color: $text-color
+
+//.navbar
+  position: absolute
+  min-height: 95px
+  border: 1px solid transparent
+  margin-bottom: 0
+
+.navbar .navbar-nav
+  font-weight: 400

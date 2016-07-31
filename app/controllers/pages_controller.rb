@@ -12,6 +12,10 @@ class PagesController < ApplicationController
     @projects = Project.all
   end
 
+  def new
+    render layout: 'new_landing'
+  end
+
   def dashboard
     @ideas = Idea.all.order(cached_votes_up: :desc).limit(10)
     @projects = Project.all.order(created_at: :desc).limit(5)

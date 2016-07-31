@@ -73,6 +73,8 @@ gem 'rails_12factor', group: :production
 # Meta tags (SEO)
 gem 'meta-tags'
 
+gem 'sqlite3'
+
 # Web analytics
 gem 'google-analytics-rails'
 
@@ -98,3 +100,5 @@ group :test do
 end
 
 ruby '2.2.4'
+
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]

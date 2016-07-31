@@ -1,7 +1,7 @@
 nav.navbar.navbar-default#landing-header
   .container
     .navbar-header
-      button.navbar-toggle.collapsed aria-expanded="false" data-target="#navbar-collapse" data-toggle="collapse" type="button" 
+      button.navbar-toggle.collapsed aria-expanded="false" data-target="#navbar-collapse" data-toggle="collapse" type="button"
         span.sr-only Toggle navigation
         span.icon-bar
         span.icon-bar
@@ -16,6 +16,6 @@ nav.navbar.navbar-default#landing-header
         li= link_to 'Products', products_path
         li= link_to 'Login', new_user_session_path
         / - if user_signed_in?
-        /   li= link_to 'Logout' , destroy_user_session_path, :method=>'delete'
-        / - else
-        /   li= link_to 'Login', new_user_session_path
+          /   li= link_to 'Logout' , destroy_user_session_path, :method=>'delete'
+          / - else
+          /   li= link_to 'Login', new_user_session_path

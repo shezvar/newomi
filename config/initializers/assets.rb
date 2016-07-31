@@ -1,0 +1,5 @@
+Rails.application.config.assets.precompile += %w( grid.css )
+Rails.application.config.assets.precompile += %w( modernizr_grid.js )
+Rails.application.config.assets.precompile += %w( gridrotator_grid.js )
+Rails.application.config.assets.precompile += %w( settings_grid.js )
+Rails.application.config.assets.precompile += %w( new_application.css )

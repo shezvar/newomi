@@ -250,7 +250,7 @@ jQuery.extend({
 
 	noop: function() {},
 
-	// See test/unit/core.js for details concerning isFunction.
+	// See new/unit/core.js for details concerning isFunction.
 	// Since version 1.3, DOM methods and functions like alert
 	// aren't supported. They return false on IE (#2968).
 	isFunction: function( obj ) {
@@ -1112,7 +1112,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 	// Support: IE<10
 	// Check if getElementById returns elements by name
 	// The broken getElementById methods don't pick up programatically-set names,
-	// so use a roundabout getElementsByName test
+	// so use a roundabout getElementsByName new
 	support.getById = assert(function( div ) {
 		docElem.appendChild( div ).id = expando;
 		return !doc.getElementsByName || !doc.getElementsByName( expando ).length;
@@ -1207,7 +1207,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 		// Regex strategy adopted from Diego Perini
 		assert(function( div ) {
 			// Select is set to empty string on purpose
-			// This is to test IE's treatment of not explicitly
+			// This is to new IE's treatment of not explicitly
 			// setting a boolean content attribute,
 			// since its presence should be enough
 			// http://bugs.jquery.com/ticket/12359
@@ -1217,7 +1217,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 
 			// Support: IE8, Opera 11-12.16
 			// Nothing should be selected when empty strings follow ^= or $= or *=
-			// The test attribute must be unknown in Opera but "safe" for WinRT
+			// The new attribute must be unknown in Opera but "safe" for WinRT
 			// http://msdn.microsoft.com/en-us/library/ie/hh465388.aspx#attribute_section
 			if ( div.querySelectorAll("[msallowcapture^='']").length ) {
 				rbuggyQSA.push( "[*^$]=" + whitespace + "*(?:''|\"\")" );
@@ -3575,7 +3575,7 @@ for ( i in jQuery( support ) ) {
 support.ownLast = i !== "0";
 
 // Note: most support tests are defined in their respective modules.
-// false until the test is run
+// false until the new is run
 support.inlineBlockNeedsLayout = false;
 
 // Execute ASAP in case we need to set body.style.zoom
@@ -3620,7 +3620,7 @@ jQuery(function() {
 (function() {
 	var div = document.createElement( "div" );
 
-	// Execute the test only if not already executed in another module.
+	// Execute the new only if not already executed in another module.
 	if (support.deleteExpando == null) {
 		// Support: IE<9
 		support.deleteExpando = true;
@@ -4238,7 +4238,7 @@ var rcheckableType = (/^(?:checkbox|radio)$/i);
 		div.cloneNode( true ).click();
 	}
 
-	// Execute the test only if not already executed in another module.
+	// Execute the new only if not already executed in another module.
 	if (support.deleteExpando == null) {
 		// Support: IE<9
 		support.deleteExpando = true;
@@ -4593,7 +4593,7 @@ jQuery.event = {
 				jQuery.acceptData( elem ) ) {
 
 				// Call a native DOM method on the target with the same name name as the event.
-				// Can't use an .isFunction() check here because IE6/7 fails that test.
+				// Can't use an .isFunction() check here because IE6/7 fails that new.
 				// Don't do default actions on window, that's where global variables be (#6170)
 				if ( ontype && elem[ type ] && !jQuery.isWindow( elem ) ) {
 
@@ -6257,7 +6257,7 @@ function addGetHookIf( conditionFn, hookFn ) {
 			var condition = conditionFn();
 
 			if ( condition == null ) {
-				// The test was not ready at this point; screw the hook this time
+				// The new was not ready at this point; screw the hook this time
 				// but check again when needed next time.
 				return;
 			}
@@ -6270,7 +6270,7 @@ function addGetHookIf( conditionFn, hookFn ) {
 				return;
 			}
 
-			// Hook needed; redefine it so that the support test is not executed again.
+			// Hook needed; redefine it so that the support new is not executed again.
 
 			return (this.get = hookFn).apply( this, arguments );
 		}
@@ -20683,7 +20683,7 @@ var deleteListener = ReactBrowserEventEmitter.deleteListener;
 var listenTo = ReactBrowserEventEmitter.listenTo;
 var registrationNameModules = ReactBrowserEventEmitter.registrationNameModules;
 
-// For quickly matching children type, to test if can be treated as content.
+// For quickly matching children type, to new if can be treated as content.
 var CONTENT_TYPES = {'string': true, 'number': true};
 
 var STYLE = keyOf({style: null});
@@ -23147,7 +23147,7 @@ var ReactElement = function(type, key, ref, owner, context, props) {
 
     // To make comparing ReactElements easier for testing purposes, we make
     // the validation flag non-enumerable (where possible, which should
-    // include every environment we run tests in), so the test framework
+    // include every environment we run tests in), so the new framework
     // ignores it.
     try {
       Object.defineProperty(this._store, 'validated', {
@@ -24191,7 +24191,7 @@ if ("production" !== "development") {
   var canWarnForReactFragment = false;
 
   try {
-    // Feature test. Don't even try to issue this warning if we can't use
+    // Feature new. Don't even try to issue this warning if we can't use
     // enumerable: false.
 
     var dummy = function() {
@@ -30246,7 +30246,7 @@ module.exports = containsNode;
 var toArray = _dereq_(152);
 
 /**
- * Perform a heuristic test to determine if an object is "array-like".
+ * Perform a heuristic new to determine if an object is "array-like".
  *
  *   A monk asked Joshu, a Zen master, "Has a dog Buddha nature?"
  *   Joshu replied: "Mu."
@@ -30765,7 +30765,7 @@ module.exports = flattenChildren;
 function focusNode(node) {
   // IE8 can throw "Can't move focus to the control because it is invisible,
   // not enabled, or of a type that does not accept the focus." for all kinds of
-  // reasons that are too expensive and fragile to test.
+  // reasons that are too expensive and fragile to new.
   try {
     node.focus();
   } catch(e) {
@@ -31738,7 +31738,7 @@ function isEventSupported(eventNameSuffix, capture) {
   }
 
   if (!isSupported && useHasFeature && eventNameSuffix === 'wheel') {
-    // This is the only way to test support for the `wheel` event in IE9+.
+    // This is the only way to new support for the `wheel` event in IE9+.
     isSupported = document.implementation.hasFeature('Events.wheel', '3.0');
   }
 
