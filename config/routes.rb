@@ -32,6 +32,11 @@ OMI::Application.routes.draw do
   get 'products', to: 'projects#products', as: :products
   get 'products/:id', to: 'projects#products_show', as: :products_show
   get 'new', to: 'pages#new', as: :new
+  get 'new_product', to: 'pages#new_product', as: :new_product
+  get 'new_single_product', to: 'pages#new_single_product', as: :new_single_product
+  get 'new_journal', to: 'pages#new_journal', as: :new_journal
+  get 'new_single_journal', to: 'pages#new_single_journal', as: :new_single_journal
+  get 'new_about', to: 'pages#new_about', as: :new_about
 
   resources :users, only: [:index, :show, :update]
   get 'my-account' => 'users#edit'

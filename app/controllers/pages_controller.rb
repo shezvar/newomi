@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def about 
+  def about
   end
 
   def admin
@@ -13,6 +13,26 @@ class PagesController < ApplicationController
   end
 
   def new
+    render layout: 'new_landing'
+  end
+
+  def new_product
+    render layout: 'new_landing'
+  end
+
+  def new_single_product
+    render layout: 'new_landing'
+  end
+
+  def new_journal
+    render layout: 'new_landing'
+  end
+
+  def new_single_journal
+    render layout: 'new_landing'
+  end
+
+  def new_about
     render layout: 'new_landing'
   end
 
