@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails omi: development" uuid="f886ff94-8786-40d2-b3da-35537f7a339b">
+      <user-name>postgres</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+      <introspection-scope>omi_dev:pg_catalog,postgres,public</introspection-scope>
+      <resolve-scope>omi_dev:postgres,public</resolve-scope>
+    </data-source>
+    <data-source name="Rails omi: test" uuid="ea397dd0-680d-41d1-a8b1-d4b6254ecb0a">
+      <first-sync>true</first-sync>
+      <user-name>postgres</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+    </data-source>
+  </component>
+</project>
