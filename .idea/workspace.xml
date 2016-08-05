@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac80c9f3-f48b-4d10-980e-3bbae1b70336" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/blog/banner-bg.jpg" afterPath="$PROJECT_DIR$/app/assets/images/blog/banner-bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/new_page.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/new_page.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/new_product.html.slim" afterPath="$PROJECT_DIR$/app/views/pages/new_product.html.slim" />
@@ -38,8 +36,8 @@
       <file leaf-file-name="new_page.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/new_page.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="1087" column="14" selection-start-line="1087" selection-start-column="14" selection-end-line="1087" selection-end-column="14" />
+            <state relative-caret-position="282">
+              <caret line="1073" column="26" selection-start-line="1073" selection-start-column="26" selection-end-line="1073" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -48,8 +46,18 @@
       <file leaf-file-name="new_product.html.slim" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/new_product.html.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-211">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.slim" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/new.html.slim">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2305">
+              <caret line="312" column="25" selection-start-line="312" selection-start-column="25" selection-end-line="312" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -535,12 +543,12 @@
       <workItem from="1469982353169" duration="270000" />
       <workItem from="1469985343149" duration="13840000" />
       <workItem from="1470180274940" duration="1281000" />
-      <workItem from="1470345376143" duration="5718000" />
+      <workItem from="1470345376143" duration="10131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137687000" />
+    <option name="totallyTimeSpent" value="142100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -886,13 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/new.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5304">
-          <caret line="312" column="25" selection-start-line="312" selection-start-column="25" selection-end-line="312" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/new_landing.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -932,14 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/new_product.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/new_journal.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
@@ -948,10 +941,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/new.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2305">
+          <caret line="312" column="25" selection-start-line="312" selection-start-column="25" selection-end-line="312" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/new_product.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/new_page.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="1087" column="14" selection-start-line="1087" selection-start-column="14" selection-end-line="1087" selection-end-column="14" />
+        <state relative-caret-position="282">
+          <caret line="1073" column="26" selection-start-line="1073" selection-start-column="26" selection-end-line="1073" selection-end-column="26" />
           <folding />
         </state>
       </provider>
